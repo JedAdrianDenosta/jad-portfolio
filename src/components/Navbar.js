@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -8,21 +9,21 @@ const Navbar = () => {
       {/* Nav Bar */}
       <nav className="max-w-5xl mx-auto w-full py-6">
         <div className="flex flex-row justify-between items-center">
-          <a href="/" className="p-2" aria-label="Home">
+          <Link href="/" className="p-2" aria-label="Home">
             <h1 className="text-sky-500 text-2xl font-bold">JAD</h1>
-          </a>
+          </Link>
           <ul className="flex flex-row text-zinc-800">
             <li className="py-2 px-4 font-medium hover:text-indigo-500">
-              <a href="#home">Home</a>
+              <Link href="#home">Home</Link>
             </li>
             <li className="py-2 px-4 font-medium hover:text-indigo-500">
-              <a href="#skills">Skills</a>
+              <Link href="#skills">Skills</Link>
             </li>
             <li className="py-2 px-4 font-medium hover:text-indigo-500">
-              <a href="#projects">Projects</a>
+              <Link href="#projects">Projects</Link>
             </li>
             <li className="py-2 px-4 font-medium hover:text-indigo-500">
-              <a href="#about">About</a>
+              <Link href="#about">About</Link>
             </li>
           </ul>
         </div>

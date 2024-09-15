@@ -6,8 +6,15 @@ import Link from "next/link";
 
 const Projects = () => {
   return (
-    <div className=" right-0 left-0 w-full bg-white text-zinc-800">
-      <div className="max-w-5xl mx-auto w-full py-[120px]">
+    <div className="right-0 left-0 w-full bg-white text-zinc-800 relative overflow-clip">
+      {/* Indigo Blur */}
+      <div className="absolute left-[90px] bottom-[159px]">
+        <div className="w-[400px] h-[400px] bg-indigo-500 blur-[800px]"></div>
+      </div>
+      <div className="absolute right-[90px] top-[90px]">
+        <div className="w-[240px] h-[240px] bg-indigo-500 blur-[400px]"></div>
+      </div>
+      <div className="max-w-5xl mx-auto w-full py-[120px] relative">
         {/* main-container */}
         <div className=" space-y-16">
           {/* title */}

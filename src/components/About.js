@@ -10,16 +10,18 @@ import { AiFillFacebook as Facebook } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="w-full bg-zinc-50 text-zinc-800">
-      <div className="max-w-5xl mx-auto w-full py-[120px]">
+    <div id="#about" className="w-full bg-zinc-50 text-zinc-800">
+      <div className="max-w-5xl mx-auto w-full py-8 px-6 sm:py-20 sm:px-10 md:px-14 md:py-20 lg:px-16 lg:py-32 xl:px-0 xl:py-[120px]">
         {/* container */}
-        <div className=" space-y-16">
+        <div className=" space-y-8 sm:space-y-10 lg:space-y-16">
           {/* title */}
-          <h1 className=" text-3xl font-bold text-indigo-700">About</h1>
+          <h1 className=" text-2xl font-bold text-indigo-700 sm:text-3xl lg:text-4xl">
+            About
+          </h1>
           <div className="max-w-5xl mx-auto w-full">
             <div className="flex flex-col lg:flex-row justify-center gap-10">
               {/* left container */}
-              <div className="bg-white rounded-lg shadow-2xl max-w-sm h-full space-y-5 p-10">
+              <div className="bg-white rounded-lg shadow-2xl xl:max-w-sm h-full space-y-5 p-8 sm:px-28 sm:py-20 lg:px-10 lg:py-12">
                 <span className="flex justify-center">
                   <Image
                     className="rounded"
@@ -30,12 +32,10 @@ const About = () => {
                   />
                 </span>
 
-                <h1 className="text-lg font-extrabold text-indigo-400">
+                <h1 className="text-lg font-bold text-indigo-400">
                   Jed Adrian Denosta
                 </h1>
-                <p className="text-sm text-gray-500">
-                  UI/UX Designer | Frontend Developer
-                </p>
+                <p className="text-sm text-gray-500">UI/UX Designer</p>
                 <p className="text-sm font-normal text-gray-600">
                   In Jed{"'"}s view, a design must address a concern, encourage
                   users, and illuminate in a pleasant, trustworthy, and
@@ -61,13 +61,11 @@ const About = () => {
                 </div>
               </div>
               {/* right container */}
-              <div className="bg-white rounded-md shadow-2xl shadow-indigo-500/10 w-full h-full space-y-8 p-10 lg:col-span-2">
-                <h1 className="text-indigo-500 text-2xl font-extrabold">
-                  My Story
-                </h1>
+              <div className="bg-white rounded-md shadow-2xl shadow-indigo-500/10 w-full h-full space-y-8 p-8 sm:px-28 sm:py-20 lg:col-span-2 lg:px-10 lg:py-12">
+                <h1 className="text-indigo-500 text-xl font-bold">My Story</h1>
                 <div className="text-gray-600 space-y-6">
                   <p>
-                    Mabuhay! ✨ I am Jed Adrian Denosta, 23 years of age, and I
+                    Mabuhay! ✨ I am Jed Adrian Denosta, 24 years of age, and I
                     reside in Capiz, Philippines.
                   </p>
                   <p>

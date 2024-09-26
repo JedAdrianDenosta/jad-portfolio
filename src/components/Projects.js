@@ -61,7 +61,7 @@ const Projects = () => {
                   <Image
                     layout="rsponsive"
                     src="/p-hospilink.png"
-                    alt="Jed's hero image"
+                    alt="Jeds hero image"
                     width={1000}
                     height={1000}
                   />
@@ -81,14 +81,14 @@ const Projects = () => {
                     <p className=" text-sm xl:text-base font-light text-zinc-600 ">
                       Traack is a time and attendance management system that
                       enables companies to record, monitor, and organize data
-                      pertaining to their employees' clock-in and clock-out
+                      pertaining to their employees clock-in and clock-out
                       times.
                     </p>
                   </div>
 
                   <div className=" xl:pt-4 w-full">
                     <Link
-                      href="/hospilink"
+                      href="/traack"
                       className=" text-sm flex justify-center gap-8 px-4 py-2 w-full xl:px-7 xl:py-4 bg-indigo-500 text-white border rounded-lg hover:opacity-75 lg:w-fit lg:px-7 lg:py-4"
                     >
                       {" "}
@@ -102,7 +102,7 @@ const Projects = () => {
                   <Image
                     layout="rsponsive"
                     src="/p-traack.png"
-                    alt="Jed's hero image"
+                    alt="Jeds hero image"
                     width={1000}
                     height={1000}
                   />
@@ -129,7 +129,7 @@ const Projects = () => {
 
                   <div className=" xl:pt-4 w-full">
                     <Link
-                      href="/hospilink"
+                      href="/coaching-gig"
                       className=" text-sm flex justify-center gap-8 px-4 py-2 w-full xl:px-7 xl:py-4 bg-indigo-500 text-white border rounded-lg hover:opacity-75 lg:w-fit lg:px-7 lg:py-4"
                     >
                       {" "}
@@ -143,7 +143,7 @@ const Projects = () => {
                   <Image
                     layout="rsponsive"
                     src="/p-coach.svg"
-                    alt="Jed's hero image"
+                    alt="Jeds hero image"
                     width={1000}
                     height={1000}
                   />

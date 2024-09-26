@@ -5,11 +5,15 @@ import Projects from "@/components/Projects";
 import About from "@/components/About";
 import Footer from "@/components/Footer";
 
+import { AuroraBackground } from "@/components/ui/aurora-background";
+
 export default function Home() {
   return (
     <main>
-      <Navbar />
-      <Hero />
+      <AuroraBackground>
+        <Navbar />
+        <Hero />
+      </AuroraBackground>
       <Skills />
       <Projects />
       <About />

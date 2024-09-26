@@ -9,27 +9,26 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className=" p-6 pb-0 sm:px-10 lg:px-20 xl:px-0 max-w-5xl mx-auto">
+      <div className=" p-6 pb-0">
         <a href="/">
           <h1 className="text-sky-500 text-2xl font-bold">JAD</h1>
         </a>
       </div>
-
       <Link
         href="/"
-        className=" sm:px-10 lg:px-20 xl:px-0 flex justify-start items-center space-x-2 tezt-zinc-700 hover:text-zinc-500 mx-auto max-w-5xl xl:py-10 p-6 pt-10"
+        className=" flex justify-start items-center space-x-2 tezt-zinc-700 hover:text-zinc-500 mx-auto max-w-5xl xl:py-10 p-6 pt-10"
       >
         <Icon path={mdiArrowLeft} size={1} />
         <p>Go back to main page</p>
       </Link>
       {/* intro */}
-      <section className=" pt-6 pb-8 px-6 sm:px-10 lg:px-20 text-zinc-800 flex justify-start xl:pb-20 xl:pt-10">
+      <section className=" pt-6 pb-8 px-6 text-zinc-800 flex justify-start xl:pb-20 xl:pt-10">
         <div className="flex flex-col justify-center gap-y-10 max-w-5xl mx-auto w-full bg-white">
           <div className=" max-w-5xl mx-auto w-full space-y-8 xl:space-y-20">
             {/* header */}
             <div className=" space-y-3 xl:space-y-6">
-              <h1 className="text-5xl font-bold tracking-tight text-teal-500">
-                HospiLink
+              <h1 className="text-5xl font-bold tracking-tight text-blue-500">
+                Traack
               </h1>
               <div className=" text-zinc-700">
                 <h3 className=" text-xl xl:text-2xl font-medium">
@@ -47,34 +46,40 @@ const page = () => {
                     Background
                   </h1>
                   <p className=" leading-7 text-base">
-                    Healthcare in the Philippines has been a problem in meeting
-                    patients&apos; needs. I wanted to look into the situation in
-                    Iloilo City and find ways to help both Emergency technicians
-                    (ET) and hospitals, especially in emergencies. My research
-                    revealed that the main issue is poor communication due to a
-                    lack of technology between the sectors, and each hospital
-                    has its own way of handling patients&apos; needs.
+                    The COVID-19 pandemic had a significant impact on all
+                    aspects of life, especially the corporate sector. To explore
+                    how Filipino workers can maintain safety and security in
+                    their daily routines, I conducted research that revealed a
+                    heightened caution among employees regarding their
+                    environment and the objects they interact with. Workers feel
+                    safer when they can manage their tasks independently,
+                    without relying on shared items.
                   </p>
                 </div>
                 <div className=" text-zinc-800 xl:space-y-2">
                   <h1 className=" text-xl xl:text-2xl font-medium">Problem</h1>
                   <p className=" leading-7 text-base">
-                    Dealing with emergencies can be tough, and it can lead to
-                    bad decisions that result in poor care for the patient and
-                    unnecessary expenses. Emergency technicians (ET) need to
-                    quickly decide where to take the patient. One problem is the
-                    lack of communication between ET and hospitals, which means
-                    nurses in the Emergency Room don&apos;t have the necessary
-                    tools ready for incoming patients.
+                    Navigating the challenges of the COVID-19 pandemic in 2020
+                    brought about numerous uncertainties, especially regarding
+                    virus exposure risks. People became increasingly aware of
+                    the dangers associated with surface contact, particularly in
+                    crowded environments like offices and workplaces.
+                    Traditional attendance tracking methods, such as manual
+                    sign-in sheets and fingerprint scanners, emerged as
+                    significant concerns, as they involved shared surfaces that
+                    could potentially facilitate virus transmission.
                   </p>
                 </div>
                 <div className=" text-zinc-800 xl:space-y-2">
                   <h1 className=" text-xl xl:text-2xl font-medium">Goals</h1>
                   <p className=" leading-7 text-base">
-                    Creating a responsive web-based application that allows ET’s
-                    and hospitals to have an information dissemenation of the
-                    patients condition and recommends the best suitable hospital
-                    for the patient.
+                    I am designing a mobile app that enables employees to
+                    conveniently clock in and out using their personal devices
+                    from anywhere in the workplace. My goals are to enhance
+                    safety by eliminating shared surfaces, boost efficiency,
+                    improve the user experience, ensure data security, increase
+                    flexibility, build employee confidence, and facilitate
+                    seamless attendance data collection.
                   </p>
                 </div>
                 <div className=" text-zinc-800 xl:space-y-2">
@@ -82,9 +87,14 @@ const page = () => {
                     My Impact
                   </h1>
                   <p>
-                    For this project I validated the need for the product I had
-                    in mind and leveraged data from the research to create an
-                    end-to-end product as a solo designer.
+                    Through this project, I identified the need for a mobile app
+                    that allows employees to safely clock in and out using their
+                    own devices, directly addressing COVID-19 concerns. Drawing
+                    on my research into Filipino workers&apos; safety and
+                    security preferences, I developed a comprehensive solution
+                    as a solo designer. This app minimizes the risk of virus
+                    transmission by eliminating shared surfaces and offers a
+                    secure, touchless attendance system for the workplace.
                   </p>
                 </div>
               </div>
@@ -92,7 +102,7 @@ const page = () => {
               <div className=" xl:w-2/5 h-fit">
                 <Image
                   layout="responsive"
-                  src="/hs-asset-1.png"
+                  src="/tk-asset-1.svg"
                   alt="Jed's hero image"
                   width={1000}
                   height={100}
@@ -105,9 +115,9 @@ const page = () => {
       {/* research */}
       <section className=" text-zinc-800 flex justify-start">
         <div className="flex flex-col justify-center gap-y-10 mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 sm:px-10 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+          <div className=" space-y-8 px-6 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
-            <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
+            <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Research
             </h1>
             {/* body */}
@@ -124,20 +134,16 @@ const page = () => {
                     </p>
                     <ul className=" list-disc list-outside pl-4 leading-7">
                       <li>
-                        What are the user’s pain points in emergency
-                        transportation of a patient
+                        The pain points users experience in their workplace
+                        during COVID-19.
                       </li>
                       <li>
-                        The context in which the users seek for finding the most
-                        suitable hospital for the patient
+                        Their preference for physical attendance versus
+                        alternative methods during the pandemic.
                       </li>
                       <li>
-                        The process when admitting a particular patient to the
-                        hospital
-                      </li>
-                      <li>
-                        What are the hindrance in terms of communication between
-                        patient, emergency technicians, and hospital
+                        Innovative solutions for improving the work attendance
+                        system in the Philippines during COVID-19.
                       </li>
                     </ul>
                   </div>
@@ -149,13 +155,16 @@ const page = () => {
                   </h1>
                   <div className=" space-y-4">
                     <p className=" text-base xl:text-lg leading-7">
-                      I&apos;m conducting a secondary research to identify gaps
-                      in the market and community concerning emergency cases.
-                      I&apos;m examining existing systems and interviewing
-                      patients, doctors, nurses, and emergency technicians who
-                      have experienced issues with hospital processes and
-                      patient transportation. This will help me validate my
-                      assumptions about emergency complications in the hospital.
+                      In my current project, I’m conducting secondary research
+                      to gather preliminary insights and assumptions about
+                      employee check-in and check-out system across various
+                      companies. To validate these initial findings, I&apos;m
+                      also engaging in primary research through interviews,
+                      questionnaires, and surveys targeting the end
+                      users—specifically, employees within these organizations.
+                      This multi-method approach will help me better understand
+                      and validate the existing attendance systems used by
+                      companies in the Philippines.
                     </p>
                   </div>
                 </div>
@@ -163,34 +172,34 @@ const page = () => {
               {/* competitive research */}
               <div className=" space-y-6 xl:space-y-4">
                 {/* header */}
-                <h1 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                <h1 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                   Competitive Research
                 </h1>
                 <div className=" flex flex-col space-y-4 xl:space-y-0 xl:flex-row xl:gap-x-24">
                   {/* left para */}
                   <div className=" space-y-2 xl:w-1/2">
                     <p className=" text-base xl:text-lg leading-7">
-                      In this phase of the project, I chose to investigate the
-                      existing systems that address hospital emergency cases and
-                      evaluate the features they implement. What I found was
-                      that there are no related systems in the Philippines that
-                      specifically cater to this problem. Some of the systems
-                      only consist of geosystems that trigger alarms for
-                      specific locations in case of emergencies.
+                      In this phase, I focused on uncovering the concerns and
+                      pain points of employees regarding attendance processes,
+                      particularly during the COVID-19 pandemic. My research
+                      revealed that companies required employees to interact
+                      with shared objects like pens, paper, and biometric
+                      devices to record their attendance. This traditional
+                      method, which necessitated physical presence at the
+                      workplace, heightened employee anxiety due to the risk of
+                      virus transmission during that period.
                     </p>
                   </div>
                   {/* left para */}
                   <div className=" space-y-2 xl:w-1/2">
                     <p className=" text-base xl:text-lg leading-7">
-                      No existing systems cater to transporting patients to
-                      specific hospitals; instead, the traditional process
-                      relies on users assumptions which hospital is best for the
-                      patient&apos;s needs. To ensure long-term success for my
-                      users, I&apos;ve realized that designing and developing a
-                      product that addresses the problems in finding and
-                      recommending the most suitable hospital according to the
-                      patient&apos;s needs, as identified by Emergency
-                      Technicians, is essential.
+                      There was also no platform that allowed employees to
+                      complete the attendance process without physical contact.
+                      To mitigate the uncertainty surrounding virus
+                      transmission, I recognized the need to design a product
+                      that addresses the limitations of traditional attendance
+                      methods. This solution will empower users to work with
+                      greater confidence and assurance regarding their health.
                     </p>
                   </div>
                 </div>
@@ -200,33 +209,29 @@ const page = () => {
                 <div className=" space-y-10">
                   {" "}
                   {/* header */}
-                  <h1 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                  <h1 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                     User Interviews
                   </h1>
                   {/* interview inputs */}
-                  <div className="flex flex-col space-y-4 xl:space-y-0 ">
+                  <div className="flex flex-col space-y-4 xl:space-y-0">
                     {/* row one */}
                     <div className=" flex flex-col xl:flex-row xl:space-y-0 justify-center space-y-4 xl:space-x-6 xl:py-4">
                       <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
                         <p>
-                          Emergency cases process are not structured where users
-                          starts to frustrate and disappointed because of the
-                          different process/es and requirements from diverse
-                          hospitals.
+                          Causing anxiety and lack of confidence to go to the
+                          physical workplace because of the Corona Virus.
                         </p>
                       </div>
                       <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
                         <p>
-                          Patients appreciates Emergency Technician if they have
-                          an assurance and suggestion regarding hospitals and
-                          doctor best treatment for the patient.
+                          Tends to resign because of health and safety reasons.
                         </p>
                       </div>
                       <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
                         <p>
-                          Emergency Technician looks for a way where they could
-                          contact the hospital easily to know the status that if
-                          they could still transport the patient or not.
+                          Employees and other target users requires to have an
+                          attendance through manual way such as pen, paper, and
+                          biometrics.
                         </p>
                       </div>
                     </div>
@@ -234,16 +239,9 @@ const page = () => {
                     <div className=" flex flex-col xl:flex-row xl:space-y-0 justify-center space-y-4 xl:space-x-6 xl:py-4">
                       <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
                         <p>
-                          Guardians wants best for their patient to get well and
-                          have a proper care and attention by a specialized
-                          physician and also the facilities and equipments.
-                        </p>
-                      </div>
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
-                          Patient are frustrated once they will be diverted to
-                          another hospital due to the capacity of the hospital
-                          is maximized.
+                          Hoping that there would be alternatives of signing in
+                          and out their attendance without interaction with
+                          physical objects.
                         </p>
                       </div>
                     </div>
@@ -259,23 +257,27 @@ const page = () => {
                     </h1>
                     <div className=" space-y-4">
                       <p className=" text-base xl:text-lg leading-7">
-                        To gain a comprehensive understanding of the experiences
-                        of Guardians/Patients, Emergency Technicians, and
-                        Hospital Staff, I conducted interviews with five
-                        individuals who have been involved in the process of
-                        admitting/transporting a patient. I was surprised to
-                        find that most Guardians/Patients faced significant
-                        struggles in such scenarios, leading to frustration and
-                        stress while caring for their loved ones. The same was
-                        true for Emergency Technicians, especially those from
-                        Iloilo City Emergency Responder (ICER), who faced
-                        confusion and communication gaps with hospitals when
-                        determining the best hospital for the patient&apos;s
-                        needs. These discoveries motivated me to develop a
-                        solution that would bridge these gaps, ensuring
-                        long-term success for the users and enabling them to
-                        make informed decisions before transporting patients to
-                        any hospitals within the city.
+                        The primary goal of this study was to understand and
+                        empathize with my target users, specifically employees
+                        in the Philippines. To achieve this, I employed various
+                        research methods, including questionnaires, surveys, and
+                        interviews. I conducted interviews with 10 employees
+                        from diverse sectors such as healthcare, education, and
+                        private companies. One of the key findings that stood
+                        out was the significant concern employees had about
+                        their health and safety due to the unpredictability of
+                        the COVID-19 virus. Many expressed a strong inclination
+                        to resign because of the risks associated with using
+                        shared physical objects at their workplaces. This
+                        concern led some to seek safer job opportunities that
+                        minimized physical interaction. <br /> <br /> These
+                        insights underscored the urgent need for a design
+                        solution that eliminates the necessity for employees to
+                        interact with shared objects, particularly in the
+                        attendance process. By addressing these pain points, the
+                        proposed solution aims to provide a long-term,
+                        user-centered approach that enhances both safety and job
+                        satisfaction.
                       </p>
                     </div>
                   </div>
@@ -286,16 +288,15 @@ const page = () => {
                     </h1>
                     <div className=" space-y-4">
                       <p className=" text-base xl:text-lg leading-7">
-                        The valuable feedback from the user interviews provided
-                        clarity on the project&apos;s direction and highlighted
-                        a crucial need that can be addressed through a main
-                        product feature. The communication breakdown between
-                        hospitals and emergency technicians emerged as a
-                        significant problem, emphasizing the importance of
-                        transparent data exchange between them. Additionally,
-                        the insights revealed that the product can assist
-                        guardians/patients in choosing the most suitable
-                        hospitals for patient transportation and proper care.
+                        The insights and key points gathered from users provided
+                        valuable clarity on the project’s goals and highlighted
+                        the needs that can be addressed through a tailored
+                        product. The lack of alternative options for signing in
+                        and out at their respective companies underscores a
+                        significant gap in the market and the daily needs of
+                        target users in the corporate environment. Additionally,
+                        user feedback revealed a strong desire for attendance
+                        solutions that prioritize their health and safety.
                       </p>
                     </div>
                   </div>
@@ -306,11 +307,11 @@ const page = () => {
         </div>
       </section>
       {/* define */}
-      <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12">
+      <section className=" text-zinc-800 flex justify-start px-6 py-8">
         <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-white">
           <div className=" space-y-8 bg-whit xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
-            <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
+            <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Define
             </h1>
             {/* body */}
@@ -320,7 +321,7 @@ const page = () => {
                 {/* user persona */}
                 <div className=" space-y-4">
                   {/* header */}
-                  <h1 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                  <h1 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                     User Persona
                   </h1>
                   <p className=" max-w-3xl">
@@ -332,16 +333,9 @@ const page = () => {
                   <div className=" space-y-4">
                     <Image
                       layout="responsive"
-                      src="/up-nick.svg"
+                      src="/up-beth.svg"
                       alt="Jed's hero image"
-                      width={1000}
-                      height={100}
-                    />
-                    <Image
-                      layout="responsive"
-                      src="/up-linda.svg"
-                      alt="Jed's hero image"
-                      width={1000}
+                      width={100}
                       height={100}
                     />
                   </div>
@@ -350,30 +344,31 @@ const page = () => {
                 <div>
                   <div className=" space-y-4">
                     {/* header */}
-                    <h1 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                    <h1 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                       User Scenario
                     </h1>
                     <div className="space-y-8">
                       <div className=" flex flex-col gap-x-14 space-y-4">
                         <p className=" leading-7 text-base xl:text-lg">
-                          After developing my user persona, I chose to envision
-                          a specific scenario where Nick could utilize the
-                          product. This use case was inspired by a combination
-                          of synthesized research from user interviews, a
-                          competitive analysis that revealed a market niche, and
-                          a persona I could deeply empathize with.
+                          After developing my user persona, I envisioned a
+                          specific scenario where Beth could benefit from the
+                          product. This use case was informed by a combination
+                          of primary and secondary research, user feedback
+                          insights, a competitive analysis that revealed a
+                          market gap, and a persona I could deeply connect with.
                         </p>
                         <p className=" leading-7 text-base xl:text-lg">
-                          The MVP enables recommending the most suitable
-                          hospital for the patient, facilitating interaction and
-                          status updates between hospitals and Emergency
-                          Technicians. It also allows hospitals to accept or
-                          reject requests from Emergency Technicians.
+                          The MVP enables users to virtually sign in and out
+                          through a mobile application, accessible only within
+                          their respective companies. This solution modernizes
+                          the traditional attendance process, offering a
+                          technological alternative that provides users with the
+                          security and confidence they need.
                         </p>
                       </div>
                       <Image
                         layout="responsive"
-                        src="/user-scenario.svg"
+                        src="/us-tk.svg"
                         alt="Jed's hero image"
                         width={1000}
                         height={100}
@@ -391,7 +386,7 @@ const page = () => {
         <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-zinc-50">
           <div className=" space-y-8 px-6 py-8 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
-            <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
+            <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Ideation
             </h1>
             {/* body */}
@@ -400,26 +395,24 @@ const page = () => {
               <div className=" space-y-8">
                 <div className=" space-y-2">
                   {/* header */}
-                  <h1 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                  <h1 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                     Feature Prioritization
                   </h1>
                   <p className=" text-base xl:text-lg leading-7">
-                    Upon recognizing the solution that would offer the greatest
-                    benefit to my users, I chose to delve deeper by generating
-                    ideas for the concrete features. I aim for the application
-                    to be user-friendly while on the move, featuring a
-                    straightforward interface, simplified onboarding process,
-                    and direct access to the main functionality. The research
-                    phase equipped me with adequate information to distinguish
-                    between features that will provide minimal versus
-                    substantial value to the user.
+                    After identifying the best solution for my users, I focused
+                    on developing specific features. I aim to create a
+                    user-friendly app that&apos;s easy to use on the go, with a
+                    simple interface, streamlined onboarding, and quick access
+                    to key functions. My research helped me distinguish between
+                    features with minimal and substantial value, ensuring I
+                    focus on what matters most.
                   </p>
                 </div>
                 <Image
                   layout="responsive"
-                  src="/moscow-prio.svg"
+                  src="/mp-tk.svg"
                   alt="Jed's hero image"
-                  width={1000}
+                  width={100}
                   height={100}
                 />
               </div>
@@ -427,7 +420,7 @@ const page = () => {
               <div className=" space-y-8">
                 <div className=" space-y-4">
                   {/* header */}
-                  <h1 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                  <h1 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                     Initial Task Flows
                   </h1>
                   <div className=" space-y-14">
@@ -448,14 +441,14 @@ const page = () => {
                     {/* user flows */}
                     <div className=" text-base xl:text-lg space-y-6">
                       <p>
-                        <b>User Flow:</b> As a Emergency Technician, I want to
-                        fill a form that will enter the data of the patient
-                        during emergency cases so that I can deliver him/her to
-                        the appropriate and best hospital care.
+                        <b>User Flow:</b> As an employee, I want to check-in and
+                        check-out for my attendance using the Near Field
+                        Communication (NFC) system using my personal cellphone
+                        device.
                       </p>
                       <Image
                         layout="responsive"
-                        src="/user-flow.svg"
+                        src="/uf-tk-1.svg"
                         alt="Jed's hero image"
                         width={1000}
                         height={100}
@@ -469,7 +462,7 @@ const page = () => {
                       </p>
                       <Image
                         layout="responsive"
-                        src="/refusal-form.svg"
+                        src="/uf-tk-2.svg"
                         alt="Jed's hero image"
                         width={1000}
                         height={100}
@@ -483,7 +476,7 @@ const page = () => {
                       </p>
                       <Image
                         layout="responsive"
-                        src="/check-avail.svg"
+                        src="/uf-tk-3.svg"
                         alt="Jed's hero image"
                         width={1000}
                         height={100}
@@ -503,18 +496,18 @@ const page = () => {
             {/* hifi-prototype */}
             <div className=" space-y-8">
               {/* header */}
-              <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
+              <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
                 Prototype and Test
               </h1>
               <div className=" space-y-4">
-                <h2 className=" text-2xl xl:text-3xl font-semibold text-cyan-600">
+                <h2 className=" text-2xl xl:text-3xl font-semibold text-blue-500">
                   Hi-fi Prototype
                 </h2>
                 <p className=" max-w-3xl">
                   After I created the user flows for the users, I was able to
                   create a wireframe that represents the main user group.
                 </p>
-                <button className="px-5 py-3 bg-teal-50 text-zinc-800 text-sm rounded-lg hover:opacity-75">
+                <button className="px-5 py-3 bg-blue-50 text-zinc-800 text-sm rounded-lg hover:opacity-75">
                   See full prototype
                 </button>
               </div>
@@ -522,7 +515,7 @@ const page = () => {
               <div className=" bg-zinc-50 py-10 xl:py-20 flex justify-center rounded-lg">
                 <Image
                   layout="rsponsive"
-                  src="/hifi-hospilink.svg"
+                  src="/hi-fi-tk.svg"
                   alt="Jed's hero image"
                   width={800}
                   height={100}
@@ -533,7 +526,7 @@ const page = () => {
             <div className=" space-y-8">
               {/* usability testing */}
               <div className=" space-y-4">
-                <h1 className=" text-3xl font-semibold text-cyan-600">
+                <h1 className=" text-3xl font-semibold text-blue-500">
                   Usability Testing
                 </h1>
                 <p className=" max-w-3xl">
@@ -546,7 +539,7 @@ const page = () => {
               <div className=" flex flex-row space-x-4 w-full justify-center px-4 xl:px-32 xl:py-10">
                 <Image
                   layout="responsive"
-                  src="/task-row.svg"
+                  src="/ut-tk.svg"
                   alt="Jed's hero image"
                   width={100}
                   height={100}
@@ -559,22 +552,17 @@ const page = () => {
                 </p>
                 <ul className=" list-disc list-outside pl-4 leading-7">
                   <li>
-                    Users had problems filling-up the form in the Patient are
-                    Report Page <br />
-                    <b>Fix:</b> add a call-to-action button for a simple or
-                    shorter form
+                    Users had problems in the Attendance Page where it does not
+                    indicate how to use the NFC feature especially for new users{" "}
+                    <br />
+                    <b>Fix:</b> added a check-in and check-out button that once
+                    device is activated, button is active
                   </li>
                   <li>
-                    Users may have issues locating the record they had submitted
-                    to the hospital <br />
-                    <b>Fix:</b> added a history page to allow see the
-                    details/history of the report
-                  </li>
-                  <li>
-                    Users (hospital) may have issues accepting the request from
-                    the emergency technician <br />
-                    <b>Fix:</b> added a sound notification to the dashboard of
-                    the hospital
+                    Users may have issues regarding the attendance notifications
+                    where a silent device may not notify users <br />
+                    <b>Fix:</b> extending a default vibrate feature to notify
+                    users
                   </li>
                 </ul>
               </div>
@@ -597,7 +585,7 @@ const page = () => {
         <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-zinc-50">
           <div className=" space-y-8 px-6 py-8 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
-            <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
+            <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Conclusion
             </h1>
             {/* body */}

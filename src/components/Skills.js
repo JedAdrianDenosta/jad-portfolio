@@ -272,7 +272,7 @@ const Skills = () => {
           {/* card-container */}
           <div className="space-y-8">
             {/* first */}
-            <div className="grid md:grid-cols-2 grid-cols-1 margin-auto w-full gap-6 lg:flex-row lg:space-y-0 lg:gap-8">
+            <div className="grid lg:grid-cols-2 grid-cols-1 margin-auto w-full gap-6 lg:flex-row lg:space-y-0 lg:gap-8 jus">
               {skills.map((item, index) => (
                 <div key={index}>
                   <div className="bg-white border border-zinc-200 rounded-2xl px-6 py-6 drop-shadow-sm w-full flex flex-col items-center space-y-6 sm:space-y-0 sm:flex-row sm:space-x-10 xl:px-8">

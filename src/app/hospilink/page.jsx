@@ -499,7 +499,7 @@ const page = () => {
       {/* prototype and test */}
       <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12 lg:px-20">
         <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-white">
-          <div className=" space-y-8 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+          <div className=" space-y-8 bg-whi xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* hifi-prototype */}
             <div className=" space-y-8">
               {/* header */}
@@ -514,9 +514,9 @@ const page = () => {
                   After I created the user flows for the users, I was able to
                   create a wireframe that represents the main user group.
                 </p>
-                <button className="px-5 py-3 bg-teal-50 text-zinc-800 text-sm rounded-lg hover:opacity-75">
-                  See full prototype
-                </button>
+                <div className="px-5 py-3 bg-teal-50 text-zinc-800 text-sm font-medium rounded-lg hover:opacity-75 cursor-pointer w-fit">
+                  <a href="https://bit.ly/3XZVMg8">See full protype</a>
+                </div>
               </div>
 
               <div className=" bg-zinc-50 py-10 xl:py-20 flex justify-center rounded-lg">

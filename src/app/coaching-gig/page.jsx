@@ -487,9 +487,9 @@ const page = () => {
                   After I created the user flows for the users, I was able to
                   create a wireframe that represents the main user group.
                 </p>
-                <button className="px-5 py-3 bg-blue-50 text-zinc-800 text-sm rounded-lg hover:opacity-75">
-                  See full prototype
-                </button>
+                <div className="px-5 py-3 bg-sky-50 text-zinc-800 text-sm font-medium rounded-lg hover:opacity-75 cursor-pointer w-fit">
+                  <a href="https://bit.ly/4gLW15F">See full protype</a>
+                </div>
               </div>
 
               <div className=" bg-zinc-50 py-10 xl:py-20 flex justify-center rounded-lg">

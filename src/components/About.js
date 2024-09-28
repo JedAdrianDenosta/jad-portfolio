@@ -21,7 +21,7 @@ const About = () => {
           <div className="max-w-5xl mx-auto w-full">
             <div className="flex flex-col lg:flex-row justify-center gap-10">
               {/* left container */}
-              <div className="bg-white rounded-lg shadow-2xl xl:max-w-sm h-full space-y-5 p-8 sm:px-28 sm:py-20 lg:px-10 lg:py-12">
+              <div className="bg-white rounded-lg hover:shadow-2xl hover:shadow-indigo-500/10 xl:max-w-sm h-full space-y-5 p-8 sm:px-28 sm:py-20 lg:px-10 lg:py-12">
                 <span className="flex justify-center">
                   <Image
                     className="rounded"
@@ -61,7 +61,7 @@ const About = () => {
                 </div>
               </div>
               {/* right container */}
-              <div className="bg-white rounded-md shadow-2xl shadow-indigo-500/10 w-full h-full space-y-8 p-8 sm:px-28 sm:py-20 lg:col-span-2 lg:px-10 lg:py-12">
+              <div className="bg-white rounded-md hover:shadow-2xl hover:shadow-indigo-500/10 w-full h-full space-y-8 p-8 sm:px-28 sm:py-20 lg:col-span-2 lg:px-10 lg:py-12">
                 <h1 className="text-indigo-500 text-xl font-bold">My Story</h1>
                 <div className="text-gray-600 space-y-6">
                   <p>

@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { AiFillLinkedin, AiFillGithub, AiFillFacebook } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 import { AuroraBackground } from "./ui/aurora-background";
 
 const Hero = () => {
@@ -78,8 +79,11 @@ const Hero = () => {
             </div>
             <div className=" flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <button className="px-5 py-3 bg-indigo-50 text-zinc-800 text-sm rounded-lg hover:opacity-75">
-                Get to know me
+                <Link to="#about" smooth={true} offset={5} duration={700}>
+                  <h1>Get to know me</h1>
+                </Link>
               </button>
+
               <a
                 href="/Jed Adrian Resume.pdf"
                 className="px-5 py-3 bg-indigo-500 text-white text-sm rounded-lg hover:opacity-75 flex flex-row justify-center"

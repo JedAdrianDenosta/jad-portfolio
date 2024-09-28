@@ -37,12 +37,12 @@ const About = () => {
                 </h1>
                 <p className="text-sm text-gray-500">UI/UX Designer</p>
                 <p className="text-sm font-normal text-gray-600">
-                  In Jed{"'"}s view, a design must address a concern, encourage
+                  In Jed&apos;s view, a design must address a concern, encourage
                   users, and illuminate in a pleasant, trustworthy, and
                   human-centered way.
                 </p>
                 <p className="text-base font-medium text-gray-700">
-                  Make contact with him! Below, you{"'"}ll find his contact
+                  Make contact with him! Below, you&apos;ll find his contact
                   information.
                 </p>
                 <p className="text-sm font-normal text-gray-600">
@@ -65,27 +65,37 @@ const About = () => {
                 <h1 className="text-indigo-500 text-xl font-bold">My Story</h1>
                 <div className="text-gray-600 space-y-6">
                   <p>
-                    Mabuhay! ✨ I am Jed Adrian Denosta, 24 years of age, and I
-                    reside in Capiz, Philippines.
+                    🖋️ I graduated Magna Cum Laude from{" "}
+                    <b>West Visayas State University</b> with a degree in
+                    Computer Science, majoring in Artificial Intelligence. As a
+                    UI/UX Designer by profession and passion, I focus on
+                    transforming problems into effective design solutions.
                   </p>
                   <p>
-                    I am a 🧑‍💻 senior student at West Visayas State University
-                    pursuing a Bachelor of Science in Computer Science
-                    specializing in Artificial Intelligence. My hobbies are ✏️
-                    UX and UI Design, 📷 Photography, and 🏸 Badminton.
+                    🎨 For me, design is essential to any successful project and
+                    plays a critical role in shaping companies. Designers serve
+                    as a bridge between business goals and technical execution,
+                    fostering collaboration through thoughtful and strategic
+                    thinking.
                   </p>
                   <p>
-                    Technology has been a massive part of my life; it is where
-                    my interest thrives, mainly in 🏥 medical care, and I aim to
-                    assist as it benefits individuals even with the slight help
-                    by saving lives. Artificial Intelligence makes society
-                    evolve as it seeks to solve concerns much faster and more
-                    accurately.
+                    🔥 My passion for UI/UX design began during my first
+                    hackathon, where I was inspired by industry leaders who
+                    emphasized the importance of design. This led to the
+                    creation of my case study, HospiLink, which allowed me to
+                    apply design thinking to real-world problems.
                   </p>
+                  {/* <p>
+                    🏥 HospiLink became my most successful project, recognized
+                    as the Best Thesis for Computer Science by WVSU’s Computer
+                    Science Department. It was also presented to university
+                    leadership and earned a spot in the Top 10 of the Philippine
+                    Startup Challenge-7.
+                  </p> */}
                   <p>
-                    Poor health services in my country really push me to work in
-                    healthcare technology to help Filipinos and people
-                    worldwide.
+                    ✨ Beyond work, I’m passionate about badminton and
+                    photography. I also dabble in front-end development,
+                    primarily static sites, using Next.js and TailwindCSS.
                   </p>
                 </div>
               </div>

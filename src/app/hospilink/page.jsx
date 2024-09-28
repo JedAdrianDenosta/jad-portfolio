@@ -105,7 +105,7 @@ const page = () => {
       {/* research */}
       <section className=" text-zinc-800 flex justify-start">
         <div className="flex flex-col justify-center gap-y-10 mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 sm:px-10 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+          <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
               Research
@@ -207,23 +207,23 @@ const page = () => {
                   <div className="flex flex-col space-y-4 xl:space-y-0 ">
                     {/* row one */}
                     <div className=" flex flex-col xl:flex-row xl:space-y-0 justify-center space-y-4 xl:space-x-6 xl:py-4">
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className=" text-center">
                           Emergency cases process are not structured where users
                           starts to frustrate and disappointed because of the
                           different process/es and requirements from diverse
                           hospitals.
                         </p>
                       </div>
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className=" text-center">
                           Patients appreciates Emergency Technician if they have
                           an assurance and suggestion regarding hospitals and
                           doctor best treatment for the patient.
                         </p>
                       </div>
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className=" text-center">
                           Emergency Technician looks for a way where they could
                           contact the hospital easily to know the status that if
                           they could still transport the patient or not.
@@ -232,15 +232,15 @@ const page = () => {
                     </div>
                     {/* row two */}
                     <div className=" flex flex-col xl:flex-row xl:space-y-0 justify-center space-y-4 xl:space-x-6 xl:py-4">
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className=" text-center">
                           Guardians wants best for their patient to get well and
                           have a proper care and attention by a specialized
                           physician and also the facilities and equipments.
                         </p>
                       </div>
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className=" text-center">
                           Patient are frustrated once they will be diverted to
                           another hospital due to the capacity of the hospital
                           is maximized.
@@ -306,9 +306,9 @@ const page = () => {
         </div>
       </section>
       {/* define */}
-      <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12">
+      <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12 lg:px-20">
         <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-white">
-          <div className=" space-y-8 bg-whit xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+          <div className=" space-y-8 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
               Define
@@ -388,8 +388,8 @@ const page = () => {
       </section>
       {/* ideation */}
       <section className=" text-zinc-800 flex justify-start ">
-        <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 py-8 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+        <div className="flex flex-col justify-center gap-y-10 w-full bg-zinc-50">
+          <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
               Ideation
@@ -497,9 +497,9 @@ const page = () => {
         </div>
       </section>
       {/* prototype and test */}
-      <section className=" text-zinc-800 flex justify-start px-6 py-8">
-        <div className="flex flex-col justify-center gap-y-6 max-w-5x mx-auto w-full bg-white">
-          <div className=" space-y-20 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+      <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12 lg:px-20">
+        <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-white">
+          <div className=" space-y-8 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* hifi-prototype */}
             <div className=" space-y-8">
               {/* header */}
@@ -594,8 +594,8 @@ const page = () => {
       </section>
       {/* conclusion */}
       <section className=" text-zinc-800 flex justify-start ">
-        <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 py-8 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+        <div className="flex flex-col justify-center gap-y-10 w-full bg-zinc-50">
+          <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-cyan-700">
               Conclusion

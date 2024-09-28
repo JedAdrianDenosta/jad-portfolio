@@ -9,20 +9,21 @@ import Image from "next/image";
 const page = () => {
   return (
     <>
-      <div className=" p-6 pb-0">
+      <div className=" p-6 pb-0 sm:px-10 lg:px-20 xl:px-0 max-w-5xl mx-auto">
         <a href="/">
           <h1 className="text-sky-500 text-2xl font-bold">JAD</h1>
         </a>
       </div>
+
       <Link
         href="/"
-        className=" flex justify-start items-center space-x-2 tezt-zinc-700 hover:text-zinc-500 mx-auto max-w-5xl xl:py-10 p-6 pt-10"
+        className=" sm:px-10 lg:px-20 xl:px-0 flex justify-start items-center space-x-2 tezt-zinc-700 hover:text-zinc-500 mx-auto max-w-5xl xl:py-10 p-6 pt-10"
       >
         <Icon path={mdiArrowLeft} size={1} />
         <p>Go back to main page</p>
       </Link>
       {/* intro */}
-      <section className=" pt-6 pb-8 px-6 text-zinc-800 flex justify-start xl:pb-20 xl:pt-10">
+      <section className=" pt-6 pb-8 px-6 sm:px-10 lg:px-20 text-zinc-800 flex justify-start xl:pb-20 xl:pt-10">
         <div className="flex flex-col justify-center gap-y-10 max-w-5xl mx-auto w-full bg-white">
           <div className=" max-w-5xl mx-auto w-full space-y-8 xl:space-y-20">
             {/* header */}
@@ -115,7 +116,7 @@ const page = () => {
       {/* research */}
       <section className=" text-zinc-800 flex justify-start">
         <div className="flex flex-col justify-center gap-y-10 mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+          <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Research
@@ -216,19 +217,19 @@ const page = () => {
                   <div className="flex flex-col space-y-4 xl:space-y-0">
                     {/* row one */}
                     <div className=" flex flex-col xl:flex-row xl:space-y-0 justify-center space-y-4 xl:space-x-6 xl:py-4">
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className="text-center">
                           Causing anxiety and lack of confidence to go to the
                           physical workplace because of the Corona Virus.
                         </p>
                       </div>
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className="text-center">
                           Tends to resign because of health and safety reasons.
                         </p>
                       </div>
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className="text-center">
                           Employees and other target users requires to have an
                           attendance through manual way such as pen, paper, and
                           biometrics.
@@ -237,8 +238,8 @@ const page = () => {
                     </div>
                     {/* row two */}
                     <div className=" flex flex-col xl:flex-row xl:space-y-0 justify-center space-y-4 xl:space-x-6 xl:py-4">
-                      <div className=" flex items-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
-                        <p>
+                      <div className=" flex items-center justify-center xl:w-72 h-40 bg-cyan-50 border border-slate-200 px-6 py-3 text-sm rounded-2xl">
+                        <p className="text-center">
                           Hoping that there would be alternatives of signing in
                           and out their attendance without interaction with
                           physical objects.
@@ -307,9 +308,9 @@ const page = () => {
         </div>
       </section>
       {/* define */}
-      <section className=" text-zinc-800 flex justify-start px-6 py-8">
+      <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12 lg:px-20">
         <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-white">
-          <div className=" space-y-8 bg-whit xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+          <div className=" space-y-8 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Define
@@ -383,8 +384,8 @@ const page = () => {
       </section>
       {/* ideation */}
       <section className=" text-zinc-800 flex justify-start ">
-        <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 py-8 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+        <div className="flex flex-col justify-center gap-y-10 w-full bg-zinc-50">
+          <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Ideation
@@ -490,9 +491,9 @@ const page = () => {
         </div>
       </section>
       {/* prototype and test */}
-      <section className=" text-zinc-800 flex justify-start px-6 py-8">
-        <div className="flex flex-col justify-center gap-y-6 max-w-5x mx-auto w-full bg-white">
-          <div className=" space-y-20 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+      <section className=" text-zinc-800 flex justify-start px-6 py-8 sm:px-10 sm:py-12 lg:px-20">
+        <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-white">
+          <div className=" space-y-8 bg-white xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* hifi-prototype */}
             <div className=" space-y-8">
               {/* header */}
@@ -582,8 +583,8 @@ const page = () => {
       </section>
       {/* conclusion */}
       <section className=" text-zinc-800 flex justify-start ">
-        <div className="flex flex-col justify-center gap-y-10 max-w-5x mx-auto w-full bg-zinc-50">
-          <div className=" space-y-8 px-6 py-8 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
+        <div className="flex flex-col justify-center gap-y-10 w-full bg-zinc-50">
+          <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
             {/* header */}
             <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Conclusion

@@ -582,20 +582,20 @@ const page = () => {
         </div>
       </section>
       {/* conclusion */}
-      <section className=" text-zinc-800 flex justify-start ">
+      {/* <section className=" text-zinc-800 flex justify-start ">
         <div className="flex flex-col justify-center gap-y-10 w-full bg-zinc-50">
           <div className=" space-y-8 px-6 sm:px-10 lg:px-20 sm:py-12 py-8 xl:px-0 xl:py-0 xl:pb-20 xl:pt-20 max-w-5xl mx-auto w-full">
-            {/* header */}
+            
             <h1 className=" text-3xl xl:text-4xl font-semibold text-blue-600">
               Conclusion
             </h1>
-            {/* body */}
+         
             <div className=" space-y-20">
               <div>text here</div>
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer></Footer>
     </>
   );

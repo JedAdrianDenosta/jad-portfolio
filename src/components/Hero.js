@@ -85,7 +85,7 @@ const Hero = () => {
               </button>
 
               <a
-                href="/Jed Adrian Resume.pdf"
+                href="/Jed Adrian Denosta Resume.pdf"
                 className="px-5 py-3 bg-indigo-500 text-white text-sm rounded-lg hover:opacity-75 flex flex-row justify-center"
               >
                 Resume

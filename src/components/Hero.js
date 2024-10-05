@@ -37,7 +37,7 @@ const Hero = () => {
                   <ul className="flex space-x-4 text-zinc-700">
                     <li className="text-2xl hover:text-zinc-400">
                       <a
-                        href="https://www.linkedin.com"
+                        href="https://www.linkedin.com/in/jedadriandenosta/"
                         aria-label="LinkedIn"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -47,7 +47,7 @@ const Hero = () => {
                     </li>
                     <li className="text-2xl hover:text-zinc-400">
                       <a
-                        href="https://github.com"
+                        href="https://github.com/JedAdrianDenosta"
                         aria-label="GitHub"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -57,7 +57,7 @@ const Hero = () => {
                     </li>
                     <li className="text-2xl hover:text-zinc-400">
                       <a
-                        href="https://www.facebook.com"
+                        href="https://www.facebook.com/jedadrian.denosta"
                         aria-label="Facebook"
                         target="_blank"
                         rel="noopener noreferrer"

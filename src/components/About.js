@@ -55,7 +55,7 @@ const About = () => {
                   <Link href="https://github.com/JedAdrianDenosta">
                     <GitHub />
                   </Link>
-                  <Link href="https://www.linkedin.com/in/jed-adrian-denosta-6b409720a/">
+                  <Link href="https://www.linkedin.com/in/jedadriandenosta/">
                     <LinkedIn />
                   </Link>
                 </div>
